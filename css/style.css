@@ -1,0 +1,482 @@
+.mainnavbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+a.link {
+    
+    color: blue;
+}
+.mainnavbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header{
+    margin-top: 50px;
+    font-family: 'Amiri', serif;
+    text-align: center;
+    font-size: 60px;
+
+}
+.mainimg{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.maintext{
+    display: inline-block;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 100px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.line{
+    border: 0;
+    height: 1px;
+    background: #000;
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+    background-image: -o-linear-gradient(left, #fff, #000, #fff);
+
+}
+.sorttext{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.sotrimg{
+     text-align: center;
+     margin-top: 40px;
+     letter-spacing: 340px;
+}
+
+
+/* Change background on mouse-over */
+.mainnavbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.top {
+	margin-top: 50px;
+	text-align: center;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20pt;
+}
+
+#labs, #labs li {
+    margin: 0;
+    padding: 0;
+}
+
+#labs {
+    text-align: center;
+}    
+
+#labs li {
+    display:inline-block;
+    text-align: center;
+    width: 20%; 
+}
+
+#labs a {
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    font-size:150%;
+    text-decoration: none;
+    background: #03658e;
+    margin-right: 5px; 
+    margin-top:10px;
+
+}
+
+#labs a:hover {
+    background: #8AB8CC;
+}
+
+#navbar, #navbar li {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    margin-left: 180px;
+    margin-top: 100px;
+    text-align: left;
+}    
+
+#navbar li {
+    
+    text-align: left;
+    width: 20%; 
+}
+
+#navbar a {
+    display: block;
+    padding: 5px 15px;
+    color: #fff;
+    font-size:120%;
+    text-decoration: none;
+    background: #03658e;
+    margin-top:30px;
+
+}
+
+#navbar a:hover {
+    background: #8AB8CC;
+}
+
+.lab2idjpgmarg{
+    margin-top: 20px;
+}
+.op, .za, .po, .sp, .id, .el, .sel{
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 14pt;
+    position: absolute;
+    top: 410px;
+    left: 700px;
+}
+.text_demoBlock {
+letter-spacing: 2px;
+margin-top: 15px;
+font-size: 34px;
+margin-left: auto;
+padding-bottom:20px; /*отступ снизу*/
+width:100%; /*указываем общую ширину блока с колонками*/
+text-align: center; /*выравнивание текста внутри колонок*/
+column-count: 3; /*количество колонок, на которое хотим разбить текст*/
+-moz-column-count: 3; /*для мозилы*/
+-webkit-column-count: 3; /*для webkit браузеров*/
+column-gap: 40px; /*отступ между колонками*/
+-moz-column-gap: 40px;
+-webkit-column-gap: 40px;
+column-rule: 1px solid #000; /*если требуется по дизайну, разделяем колонки линией*/
+-moz-column-rule: 1px solid #000;
+-webkit-column-rule: 1px solid #000;
+}
+.form-style-6{
+    margin-top: 20px;
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.form-style-6 h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+    background: #2EBC99;
+}
+
+
+.head {
+
+    position: relative;
+    margin-top: 100px;
+    background-color: yellow;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 200px;
+    text-align: right;
+    font-size: 40px;
+    border-color: black;
+    border: solid;
+    border-width: 2px;
+}
+
+.headin {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+}
+.mainblocks {
+    position: relative;
+    height: 700px;
+    border: solid;
+    border-width: 2px
+}
+
+.blue{   
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    height: 100%;
+    width: 15%;
+
+}
+.bluetext {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    font-size: 50px;
+
+}
+
+.red { 
+    position: absolute;
+    background-color: red;
+    height: 100px;
+    right: 5%;
+    top: 3%;
+    left: 20%;
+    border: solid;
+    border-width: 2px;
+
+}
+
+.whitered {
+    position: absolute;
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    height: 550px;
+    top: 20%;
+    right: 45%;
+    left: 20%;
+}
+
+.whiteredtext {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 40px;
+}
+
+.redinwhite {
+    position: absolute;
+    background-color: red;
+    height: 120px;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+
+    border: solid;
+    border-width: 2px;
+}
+
+.bluemain {
+    position: absolute;
+    height: 550px;
+    top: 20%;
+    left: 60%;
+    right: 5%;
+    background-color: blue;
+    border: solid;
+    border-width: 2px;
+}
+
+.bluemaintext{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 40px;
+}
+
+.footerlab3 {
+    position: relative;
+    height: 130px;
+    background-color: yellow;
+    border: solid;
+    border-width: 2px;
+}
+
+.footerlab3text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 40px;
+
+}
+
+.lab3ph {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px; 
+}
+
+.th1, .th3, .th4 {   
+    font-size: 40px;
+}
+.table1 {
+    position: absolute;
+
+}
+
+.table2 {
+    margin-left: 620px;
+    margin-top: 20px;
+}
+
+.table3 {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 10px;
+}
+
+.table4 {
+    margin-top: 10px;
+   margin-left: 1200px;
+
+}
+
+.footerlab2 {
+    height: 100px;
+    background-color: yellow;
+    width: 100%;
+    margin-top: 10px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.blabla {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.knopkilab5 {
+    
+
+}
+
+.js4lab {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.date {
+    margin-top: 100px;
+}
+
+.date1 {
+    margin-top: 100px;
+    margin: 0 auto;
+}
+.btn {
+        width: 60px;
+        height: 60px;
+        background: #fc0;
+        display: inline-block;
+        text-align: center;
+        line-height: 60px;
+        user-select: none;
+    }
+ 
+    .btn:hover {
+        background: #f70;
+        color: #fff;
+    }
+ 
+    #calc-wrap {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        
+    }
+ 
+    #calc {
+        width: 240px;
+        display: inline-block;
+    }
+ 
+    #inputVal {
+        background-color: #FAFAFA;
+        width: 100%;
+        border: 0;
+        font-size: 16px;
+        resize: vertical;
+    }
+
+
+

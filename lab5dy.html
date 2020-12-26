@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>!DOCTYPE</title>
+   <meta charset="utf-8">
+   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+   <link href="css/style.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+
+
+  </script>
+  <style>
+  .ui-menu { width: 150px; }
+  </style>
+
+  <script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
+  <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  </style>
+
+
+ </head>
+ <body>
+  <div class="mainnavbar">
+  <a href="lab5.html">Главная</a>
+    </div>
+
+    <div class="date">
+      <h1>DATEPICKER</h1>
+      <p>Date: <input type="text" id="datepicker"></p>
+    </div>
+    <h1>MENU</h1>
+    <ul id="menu">
+
+  <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+  <li><div>Books</div></li>
+  <li><div>Clothing</div></li>
+  <li><div>Electronics</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Car Hifi</div></li>
+      <li><div>Utilities</div></li>
+    </ul>
+  </li>
+  <li><div>Movies</div></li>
+  <li><div>Music</div>
+    <ul>
+      <li><div>Rock</div>
+        <ul>
+          <li><div>Alternative</div></li>
+          <li><div>Classic</div></li>
+        </ul>
+      </li>
+      <li><div>Jazz</div>
+        <ul>
+          <li><div>Freejazz</div></li>
+          <li><div>Big Band</div></li>
+          <li><div>Modern</div></li>
+        </ul>
+      </li>
+      <li><div>Pop</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+</ul>
+
+<h1>TOOLTIP</h1>
+<p><a href="#" title="всплывающее окно">наведите сюда</a> 
+
+<p><label for="age">Ваш возраст:</label><input id="age" title="Только студентам КПИ"></p>
+
+
+
+    
